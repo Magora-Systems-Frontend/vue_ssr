@@ -17,6 +17,10 @@
 
   export default {
     name: 'Home',
+    metaInfo: {
+      title: 'Vue ssr - homepage',
+      meta: [{ name: 'description', content: 'Vue ssr template' }],
+    },
     mounted() {
       this.getUsersCount();
     },

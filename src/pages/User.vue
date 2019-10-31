@@ -12,6 +12,12 @@
 <script>
   export default {
     name: 'app',
+    metaInfo(){
+      return {
+        title: `Vue ssr - user ${this.$route.params.id}`,
+        meta: [{ name: 'description', content: `Vue ssr user ${this.$route.params.id}` }],
+      };
+    },
     created() {
       this.getUser();
     },

@@ -1,5 +1,5 @@
 <template>
-  <div class="header">
+  <header class="header">
     <router-link class="header__logo" to="/">
       <img class="header__logo-img" src="/public/images/logo.svg" alt="vue logo">
     </router-link>
@@ -7,7 +7,7 @@
     <router-link class="header__link" to="/about">Go to About</router-link>
     <router-link class="header__link" to="/user/1">Go to User 1</router-link>
     <router-link class="header__link" to="/user/2">Go to User 2</router-link>
-  </div>
+  </header>
 </template>
 
 <style lang="scss">

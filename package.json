@@ -8,7 +8,13 @@
     "build": "webpack --config webpack/server.production.js && webpack --config webpack/client.production.js",
     "start": "cross-env NODE_ENV=production node server/server.js"
   },
-  "keywords": ["vue", "ssr", "vue-router", "vuex", "template"],
+  "keywords": [
+    "vue",
+    "ssr",
+    "vue-router",
+    "vuex",
+    "template"
+  ],
   "author": "Zaporozhets Anatoliy",
   "license": "MIT",
   "dependencies": {
@@ -16,6 +22,7 @@
     "compression": "^1.7.4",
     "express": "^4.17.1",
     "vue": "^2.6.10",
+    "vue-meta": "^2.3.1",
     "vue-router": "^3.1.3",
     "vue-server-renderer": "^2.6.10",
     "vuex": "^3.1.1"

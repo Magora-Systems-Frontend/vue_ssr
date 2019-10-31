@@ -10,6 +10,9 @@
 
   export default {
     name: 'App',
+    metaInfo: {
+      title: 'Vue ssr',
+    },
     components: {
       Header,
     },
