@@ -9,7 +9,7 @@ export const COUNTER_ACTIONS = {
 
 const getUsersCountMock = () => {
   return new Promise((resolve) => {
-    setTimeout(() => resolve(30), 3000);
+    setTimeout(() => resolve(30), 100);
   });
 };
 

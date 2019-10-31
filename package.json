@@ -5,13 +5,10 @@
   "main": "index.js",
   "scripts": {
     "dev": "node server/webpack.dev.servers.js",
-    "build": "webpack --config webpack/server.production.js & webpack --config webpack/client.production.js",
-    "start": "cross-env NODE_ENV=production node server/server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack --config webpack/server.production.js && webpack --config webpack/client.production.js",
+    "start": "cross-env NODE_ENV=production node server/server.js"
   },
-  "keywords": [
-    "vue"
-  ],
+  "keywords": ["vue", "ssr", "vue-router", "vuex", "template"],
   "author": "Zaporozhets Anatoliy",
   "license": "MIT",
   "dependencies": {
@@ -43,7 +40,7 @@
     "vue-style-loader": "^4.1.2",
     "vue-template-compiler": "^2.6.10",
     "webpack": "^4.41.2",
-    "webpack-cli": "^3.3.9",
+    "webpack-cli": "^3.3.10",
     "webpack-dev-server": "^3.9.0",
     "webpack-merge": "^4.2.2",
     "webpack-node-externals": "^1.7.2",

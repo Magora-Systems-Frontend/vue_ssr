@@ -28,6 +28,8 @@ const renderer = createBundleRenderer(serverBundle, {
 });
 
 app.use('/dist', express.static(path.resolve('./dist')));
+app.use('/public', express.static(path.resolve('./public')));
+
 app.get('*', (req, res) => {
   const context = { url: req.url };
 
