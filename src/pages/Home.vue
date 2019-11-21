@@ -13,7 +13,7 @@
 
 <script>
   import { mapState } from 'vuex';
-  import { COUNTER_MUTATIONS, COUNTER_ACTIONS } from '../store/modules/counter';
+  import { COUNTER_MUTATIONS, COUNTER_ACTIONS } from 'store/modules/counter';
 
   export default {
     name: 'Home',
