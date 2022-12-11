@@ -21,7 +21,7 @@
     "@babel/polyfill": "^7.6.0",
     "babel-plugin-module-resolver": "^3.2.0",
     "compression": "^1.7.4",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "vue": "^2.6.10",
     "vue-meta": "^2.3.1",
     "vue-router": "^3.1.3",
